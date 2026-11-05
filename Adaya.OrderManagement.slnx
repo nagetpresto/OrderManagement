@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Adaya.Orders.Api/Adaya.Orders.Api.csproj" />
+    <Project Path="src/Adaya.Orders.Application/Adaya.Orders.Application.csproj" />
+    <Project Path="src/Adaya.Orders.Domain/Adaya.Orders.Domain.csproj" />
+    <Project Path="src/Adaya.Orders.Infrastructure/Adaya.Orders.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Adaya.Orders.IntegrationTests/Adaya.Orders.IntegrationTests.csproj" />
+    <Project Path="tests/Adaya.Orders.UnitTests/Adaya.Orders.UnitTests.csproj" />
+  </Folder>
+</Solution>

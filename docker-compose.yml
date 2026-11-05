@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: orders-postgres
+    environment:
+      POSTGRES_USER: orders
+      POSTGRES_PASSWORD: orders_pwd
+      POSTGRES_DB: orders_db
+    ports:
+      - "5433:5432"   # 5433 supaya tidak bentrok dengan Postgres 17 lokalmu
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

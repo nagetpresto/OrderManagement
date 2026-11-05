@@ -1,0 +1,6 @@
+@Adaya.Orders.Api_HostAddress = http://localhost:5293
+
+GET {{Adaya.Orders.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
